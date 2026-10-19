@@ -1,0 +1,6 @@
+.build/
+build/
+.swiftpm/
+.DS_Store
+# Záloha modelu z ObjectBox generátora
+Sources/Neposearch/model-Neposearch.json.bak

@@ -1,0 +1,566 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3632320260303897600",
+      "lastPropertyId": "21:4886159558870635264",
+      "name": "IndexedFile",
+      "properties": [
+        {
+          "id": "1:2093573065777810944",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4010168664377497856",
+          "name": "path",
+          "indexId": "1:6359226147775625216",
+          "type": 9,
+          "flags": 2088
+        },
+        {
+          "id": "3:7998241056123088640",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:8796098250286961408",
+          "name": "fileExtension",
+          "type": 9
+        },
+        {
+          "id": "5:5907123611409522688",
+          "name": "size",
+          "type": 6
+        },
+        {
+          "id": "6:3435642203369535744",
+          "name": "modifiedAt",
+          "type": 10
+        },
+        {
+          "id": "7:5283100687172449024",
+          "name": "indexedAt",
+          "type": 10
+        },
+        {
+          "id": "8:7628820291782344960",
+          "name": "summary",
+          "type": 9
+        },
+        {
+          "id": "9:9122294828608410112",
+          "name": "tags",
+          "type": 9
+        },
+        {
+          "id": "10:5611077474044799232",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "11:7156838880195154176",
+          "name": "errorMessage",
+          "type": 9
+        },
+        {
+          "id": "13:6259217832621521664",
+          "name": "embeddingModel",
+          "type": 9
+        },
+        {
+          "id": "14:913336607183202304",
+          "name": "searchKey",
+          "type": 9
+        },
+        {
+          "id": "15:3115580015656150784",
+          "name": "keywords",
+          "type": 9
+        },
+        {
+          "id": "16:7446600369040747008",
+          "name": "summaryVersion",
+          "type": 6
+        },
+        {
+          "id": "17:4374172112284725248",
+          "name": "vector",
+          "indexId": "4:6625996782417470464",
+          "type": 28,
+          "flags": 8
+        },
+        {
+          "id": "18:1272791285598431744",
+          "name": "sourceURL",
+          "type": 9
+        },
+        {
+          "id": "19:1995752071660332288",
+          "name": "lastUsedAt",
+          "type": 10
+        },
+        {
+          "id": "20:2829248761452263424",
+          "name": "useCount",
+          "type": 6
+        },
+        {
+          "id": "21:4886159558870635264",
+          "name": "finderTags",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:6216723500342444544",
+          "name": "people",
+          "targetId": "7:8143474250481410304"
+        },
+        {
+          "id": "3:8094558302600375296",
+          "name": "organizations",
+          "targetId": "6:8095144562327525120"
+        }
+      ]
+    },
+    {
+      "id": "2:7774308101723573760",
+      "lastPropertyId": "9:2042859179706950400",
+      "name": "ClipboardItem",
+      "properties": [
+        {
+          "id": "1:5525084147079463936",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5856456557581124352",
+          "name": "kind",
+          "type": 9
+        },
+        {
+          "id": "3:639250747536494848",
+          "name": "text",
+          "type": 9
+        },
+        {
+          "id": "4:642096632350127872",
+          "name": "imagePath",
+          "type": 9
+        },
+        {
+          "id": "5:1452489389586473984",
+          "name": "sourceAppName",
+          "type": 9
+        },
+        {
+          "id": "6:7378503980804151552",
+          "name": "sourceAppPath",
+          "type": 9
+        },
+        {
+          "id": "7:3888016770695037696",
+          "name": "createdAt",
+          "type": 10
+        },
+        {
+          "id": "8:8773240087853904896",
+          "name": "isPinned",
+          "type": 1
+        },
+        {
+          "id": "9:2042859179706950400",
+          "name": "searchKey",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:4765101354586054400",
+      "lastPropertyId": "6:4829703565059312384",
+      "name": "ScreenshotItem",
+      "properties": [
+        {
+          "id": "1:512565397925974784",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8020519287356986880",
+          "name": "path",
+          "indexId": "3:1742743780222572032",
+          "type": 9,
+          "flags": 2088
+        },
+        {
+          "id": "3:8417958069847682560",
+          "name": "createdAt",
+          "type": 10
+        },
+        {
+          "id": "4:6587186256472179712",
+          "name": "modifiedAt",
+          "type": 10
+        },
+        {
+          "id": "5:7874742908709286400",
+          "name": "text",
+          "type": 9
+        },
+        {
+          "id": "6:4829703565059312384",
+          "name": "searchKey",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:7740019210499360512",
+      "lastPropertyId": "15:590212604363096832",
+      "name": "ClaudeSession",
+      "properties": [
+        {
+          "id": "1:5828541432430034176",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1332224042699151616",
+          "name": "sessionId",
+          "indexId": "5:7263469940184939264",
+          "type": 9,
+          "flags": 2088
+        },
+        {
+          "id": "3:9027989477286739712",
+          "name": "filePath",
+          "type": 9
+        },
+        {
+          "id": "4:7269378526588986368",
+          "name": "projectPath",
+          "type": 9
+        },
+        {
+          "id": "5:2485896983221711872",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "6:7459805678547962112",
+          "name": "firstPrompt",
+          "type": 9
+        },
+        {
+          "id": "7:3529577330505040384",
+          "name": "prompts",
+          "type": 9
+        },
+        {
+          "id": "8:835048620571630592",
+          "name": "answers",
+          "type": 9
+        },
+        {
+          "id": "9:7707939616994536192",
+          "name": "gitBranch",
+          "type": 9
+        },
+        {
+          "id": "10:5413418402635660544",
+          "name": "startedAt",
+          "type": 10
+        },
+        {
+          "id": "11:6063907474645697536",
+          "name": "updatedAt",
+          "type": 10
+        },
+        {
+          "id": "12:5239862192315572992",
+          "name": "fileSize",
+          "type": 6
+        },
+        {
+          "id": "13:8519127457381072128",
+          "name": "promptCount",
+          "type": 6
+        },
+        {
+          "id": "14:8430881029080297728",
+          "name": "searchKey",
+          "type": 9
+        },
+        {
+          "id": "15:590212604363096832",
+          "name": "vector",
+          "indexId": "6:1091072165143365632",
+          "type": 28,
+          "flags": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:6919833175936901888",
+      "lastPropertyId": "13:8107912353536613888",
+      "name": "CalendarEvent",
+      "properties": [
+        {
+          "id": "1:6340321579938560",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:9117455352410347008",
+          "name": "key",
+          "indexId": "7:4265768837513913856",
+          "type": 9,
+          "flags": 2088
+        },
+        {
+          "id": "3:560045078795004416",
+          "name": "eventIdentifier",
+          "type": 9
+        },
+        {
+          "id": "4:4673998185124568832",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "5:107204777144927488",
+          "name": "start",
+          "type": 10
+        },
+        {
+          "id": "6:1316679142017617408",
+          "name": "end",
+          "type": 10
+        },
+        {
+          "id": "7:5893647343204772352",
+          "name": "isAllDay",
+          "type": 1
+        },
+        {
+          "id": "8:5594545178443223552",
+          "name": "location",
+          "type": 9
+        },
+        {
+          "id": "9:971728511841935104",
+          "name": "notes",
+          "type": 9
+        },
+        {
+          "id": "10:4802406996157490944",
+          "name": "calendarName",
+          "type": 9
+        },
+        {
+          "id": "11:5162016828406086400",
+          "name": "attendeesText",
+          "type": 9
+        },
+        {
+          "id": "12:5783629648704615168",
+          "name": "meetingURL",
+          "type": 9
+        },
+        {
+          "id": "13:8107912353536613888",
+          "name": "searchKey",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:8445630544122859008",
+          "name": "attendees",
+          "targetId": "7:8143474250481410304"
+        }
+      ]
+    },
+    {
+      "id": "6:8095144562327525120",
+      "lastPropertyId": "6:4855080888374894848",
+      "name": "Organization",
+      "properties": [
+        {
+          "id": "1:4147642652209128704",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7965929693366613760",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:1278817180328204800",
+          "name": "nameKey",
+          "indexId": "8:1737951767919355392",
+          "type": 9,
+          "flags": 2056
+        },
+        {
+          "id": "4:1463770356691653632",
+          "name": "searchKey",
+          "type": 9
+        },
+        {
+          "id": "5:4751092564873672960",
+          "name": "kind",
+          "type": 9
+        },
+        {
+          "id": "6:4855080888374894848",
+          "name": "aliases",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:8143474250481410304",
+      "lastPropertyId": "10:3195300607290535424",
+      "name": "Person",
+      "properties": [
+        {
+          "id": "1:6545870208753958912",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:410353910433238528",
+          "name": "contactIdentifier",
+          "indexId": "9:3340932590736234240",
+          "type": 9,
+          "flags": 2056
+        },
+        {
+          "id": "3:9027283165553293824",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:1088419806363364096",
+          "name": "nameKey",
+          "indexId": "10:5557879992484985856",
+          "type": 9,
+          "flags": 2056
+        },
+        {
+          "id": "5:2069914985330662656",
+          "name": "organizationName",
+          "type": 9
+        },
+        {
+          "id": "6:2651107026551955712",
+          "name": "jobTitle",
+          "type": 9
+        },
+        {
+          "id": "7:1213383903174705664",
+          "name": "emails",
+          "type": 9
+        },
+        {
+          "id": "8:8735027323036753664",
+          "name": "phones",
+          "type": 9
+        },
+        {
+          "id": "9:2752823985249400320",
+          "name": "searchKey",
+          "type": 9
+        },
+        {
+          "id": "10:3195300607290535424",
+          "name": "source",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:8602322448999801088",
+      "lastPropertyId": "8:7861211395970142720",
+      "name": "ReminderItem",
+      "properties": [
+        {
+          "id": "1:3001468610839499008",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6905147736083682048",
+          "name": "identifier",
+          "indexId": "11:5756466346025054976",
+          "type": 9,
+          "flags": 2088
+        },
+        {
+          "id": "3:7525959344896887552",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "4:2302449541805741824",
+          "name": "notes",
+          "type": 9
+        },
+        {
+          "id": "5:450090034738650112",
+          "name": "listName",
+          "type": 9
+        },
+        {
+          "id": "6:682900125880243712",
+          "name": "due",
+          "type": 10
+        },
+        {
+          "id": "7:4643280151267359744",
+          "name": "priority",
+          "type": 6
+        },
+        {
+          "id": "8:7861211395970142720",
+          "name": "searchKey",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "8:8602322448999801088",
+  "lastIndexId": "11:5756466346025054976",
+  "lastRelationId": "3:8094558302600375296",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    289865191577137920
+  ],
+  "retiredPropertyUids": [
+    6129771863505477888
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
